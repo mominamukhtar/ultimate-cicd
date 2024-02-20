@@ -12,8 +12,8 @@ public class StartApplication {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "DevOps Session in Arcana");
-        model.addAttribute("msg", "Hi, this is Momina Mukhtar, and I'm presenting a DevOps session. In this demo, I deployed a Java application on Kubernetes using ArgoCD");
+        model.addAttribute("title", "DevOps Demo");
+        model.addAttribute("msg", "Hi, this is Momina Mukhtar, and I'm presenting a DevOps demo. In this demo, I deployed a Java application on Kubernetes using ArgoCD");
         return "index";
     }
 
